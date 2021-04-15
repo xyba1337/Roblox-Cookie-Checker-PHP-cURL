@@ -2,6 +2,7 @@
 Maybe the first ever working web application which allows you to check for all the necessary roblox cookie account data.
 
 # How does it work?
+
 [1] The web-application allows you to enter a valid url parameter which then gets passed to curl in order to set the required headers.
 
 [2] Once the headers are set we can CURLOPT_RETURNTRANSFER the received data from "https://www.roblox.com/mobileapi/userinfo".
@@ -19,6 +20,7 @@ There are more reliable ways of doing that, for example by using python and a st
 However, if you are for whatever reason in possession of an insanely fast vps server, you will have a lot of fun with this web-application.
   
 The setup is easy:
+
 [1] Simply create a text document in which you paste in your cookies line by line.
       => Cookie-Format: _|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and- etc.
   
