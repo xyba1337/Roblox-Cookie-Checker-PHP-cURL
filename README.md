@@ -3,9 +3,13 @@ Maybe the first ever working web application which allows you to check for all t
 
 # How does it work?
 [1] The web-application allows you to enter a valid url parameter which then gets passed to curl in order to set the required headers.
+
 [2] Once the headers are set we can CURLOPT_RETURNTRANSFER the received data from "https://www.roblox.com/mobileapi/userinfo".
+
 [3] The received data will be in a json format, which we can easily decode with PHP's json_decode function.
+
 [4] We can then simply store the decoded data in single variables for all the information we need (UserID, UserName, IsAnyBuildersClubMember etc.).
+
 [5] All that's left to do is a "for loop", in which we output the collected data by comparing the $x variable in the 2. statement with the total amount of collected cookies.
 => We can then simply replace the information variable's array key with the $x variable which will then allow the array key to auto increment through the collected data.
      
