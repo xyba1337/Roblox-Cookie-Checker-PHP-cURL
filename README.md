@@ -29,3 +29,5 @@ Maybe the first ever working web application which allows you to check for all t
   [1] I want to make it validate each cookie and display the bad and the working cookies.
   [2] I want to add a button which allows you to save the working cookies and filter out the bad ones.
   
+# Preview
+  ![alt text](https://i.gyazo.com/1b251b1dbe10978ba572175838d4f59f.gif)
