@@ -31,6 +31,7 @@ data transfer and compression.
   
 # Soon
 [1] I want to make it validate each cookie and display the bad and the working cookies.
+
 [2] I want to add a button which allows you to save the working cookies and filter out the bad ones.
   
 # Preview
